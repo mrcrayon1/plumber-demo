@@ -5,7 +5,7 @@ import RatingsBanner from './components/RatingsBanner';
 import Services from './components/Services';
 import WhyChooseUs from './components/WhyChooseUs';
 import Testimonials from './components/Testimonials';
-import AIAssistant from './components/AIAssistant';
+
 import Coupons from './components/Coupons';
 import Footer from './components/Footer';
 import ScheduleModal from './components/ScheduleModal';
@@ -26,7 +26,7 @@ const App: React.FC = () => {
         <WhyChooseUs />
         <Testimonials />
         <Coupons />
-        <AIAssistant />
+        
       </main>
       <Footer onScheduleClick={handleOpenModal} />
       <ScheduleModal isOpen={isModalOpen} onClose={handleCloseModal} />
